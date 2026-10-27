@@ -1,7 +1,7 @@
 # ==============================================
 # ONS_Cryptor - ONS脚本加密解密一体化工具
 # 原项目基础：kalawore/ons_decryptor
-# 优化增强：XAEKA's Open Source Project
+# 优化增强：locyne's Open Source Project
 # 版本：v1.0.0
 # 功能：nscript.dat 加解密 | GB2312自动识别 
 # ==============================================

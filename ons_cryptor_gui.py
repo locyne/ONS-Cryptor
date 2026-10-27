@@ -3,7 +3,7 @@
 # 支持：nscript.dat / nscr_sec.dat / onscript.nt2 / onscript.nt3 / nscript.___
 # 全窗口自动居中 | 菜单栏快捷打开目录 | 解密弹窗增加跳转文件夹
 # 基于kalawore/ons_decryptor全算法 | GB2312固定编码
-# 作者：XAEKA
+# 作者：locyne
 # ==============================================
 
 import os
@@ -198,7 +198,7 @@ def encrypt_work():
 def show_help():
     help_text = """【ONS Cryptor 使用说明】
 1.解密：点击【🔓解密文件】，选中dat/nt2/nt3/___脚本
-  ·解密文件自动保存在软件同目录decrypted文件夹，输出GB231编码TXT
+  ·解密文件自动保存在软件同目录decrypted文件夹，输出GB2312编码TXT
 2.加密：点击【🔒加密文件】，选中修改完毕的GB2312编码TXT，按需选择加密格式
   ·加密文件自动保存在encrypted文件夹
 【重要注意事项】
@@ -209,7 +209,7 @@ def show_help():
 def show_about():
     about_text = """ONS Cryptor v1.0.0
 基于kalawore/ons_decryptor开源算法二次开发
-GitHub项目地址：https://github.com/Xaeka/ONS-Cryptor"""
+GitHub项目地址：https://github.com/locyne/ONS-Cryptor"""
     messagebox.showinfo("关于软件", about_text)
 
 # 主窗口

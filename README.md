@@ -1,6 +1,6 @@
 <div align="center">
 <!-- 项目图标，默认调用仓库内app.ico，后续可替换GUI截图png -->
-<img src="https://raw.githubusercontent.com/Xaeka/ONS-Cryptor/main/app.ico" width="128"/>
+<img src="https://raw.githubusercontent.com/locyne/ONS-Cryptor/main/app.ico" width="128"/>
 </div>
 
 # ONS_Cryptor v1.0.0
@@ -17,8 +17,8 @@
 | nscript.dat | 模式1（0x84单字节异或） | ✅ 解密+加密 | 较为常用 |
 | nscr_sec.dat | 模式2（5字节循环密钥异或） | ✅ 解密+加密 | 早期小众版本ONS脚本 |
 | onscript.nt2 | 模式4（字节公式变换加密） | ✅ 解密+加密 | 部分日区专属移植脚本 |
-| onscript.nt3 | 模式5（头部流式动态密钥） | ✅仅解密 | 原项目无逆向加密算法，无法重新打包 |
-| nscript.___ | 模式3（256字节密钥查表） | ✅解密(需key.bin密钥) | 解密必须附带256字节key.bin密钥文件 |
+| onscript.nt3 | 模式5（头部流式动态密钥） | ✅ 仅解密 | 原项目无逆向加密算法，无法重新打包 |
+| nscript.___ | 模式3（256字节密钥查表） | ✅ 解密(需key.bin密钥) | 解密必须附带256字节key.bin密钥文件 |
 
 ## 🛠 软件核心功能清单
 ### 1. 顶部可视化菜单栏
@@ -74,7 +74,7 @@ pyinstaller -F -w -n "ONS Cryptor" -i app.ico ons_cryptor_gui.py
 原开源仓库：https://github.com/kalawore/ons_decryptor
 
 ## 🧑‍💻 项目作者
-XAEKA | 项目主页：https://github.com/Xaeka/ONS-Cryptor
+locyne | 项目主页：https://github.com/locyne/ONS-Cryptor
 
 ## 📦 版本标识
 当前正式发行版：v1.0.0

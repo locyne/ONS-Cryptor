@@ -1,7 +1,7 @@
 *.log
 *.spec
 
-
+.vscode/
 temp/
 dist/
 build/
